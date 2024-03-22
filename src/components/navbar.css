@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+.nav{
+  display:flex ;
+  justify-content: space-between;
+  background: transparent;
+  align-items: center;
+  padding:10px;
+  color: white;
+  font-size: 20px;
+  
+}
+.nav ul{
+    list-style: none;
+    display: flex; 
+   }
+.nav a{
+    color: inherit;
+    padding: 5px;
+    margin-right: 30px;
+}
+.nav a:hover{
+ border-bottom: 2px solid white;
+}
+nav p{
+    position: relative;
+    inset:10px 40px;
+}
+nav p::first-letter{
+    
+    font-size: 50px;
+}
